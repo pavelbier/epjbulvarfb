@@ -1,0 +1,8 @@
+{
+  "scope": "xorg",
+  "name": "2021-03-31-epjfb",
+  "regions": ["bru1"],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index.js" }
+  ]
+}
