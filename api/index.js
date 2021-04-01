@@ -1,7 +1,7 @@
 import chromeAws from "chrome-aws-lambda";
 
-const CACHE_BROWSER = 60 * 60 * 12; // 12 hours
-const CACHE_CDN = 60 * 60 * 24 * 3; // 3 days
+const CACHE_BROWSER = 60 * 60 * 2; // 2 hours
+const CACHE_CDN = 60 * 60 * 24 * 1; // 1 day
 
 export default async function handler(req, res) {
   console.log("HTTP", req.url);
